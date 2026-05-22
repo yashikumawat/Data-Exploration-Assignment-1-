@@ -24,9 +24,9 @@ Duplicate rows in the dataset are identified using `duplicated()` and removed us
 
 ### Step 6: Create Derived Columns
 
-New columns are created from existing data to generate meaningful insights. Examples include `total_amount`, `discounted_price`, `savings_amount`, and `price_category`.
+New columns are created from existing data to generate meaningful insights. Examples include `savings_amount`.
 Example Formula:
-\text{total_amount} = \text{price} \times \text{quantity}
+savings_amount = price * discount / 100 . 
 These derived columns help in analyzing pricing, discounts, and customer purchasing behavior.
 
 ### Step 7: Save the Cleaned Dataset
